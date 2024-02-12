@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "755141002500",
+    "project_id": "voleman-35fb1",
+    "storage_bucket": "voleman-35fb1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:755141002500:android:ccf2436d457fdf0c333c51",
+        "android_client_info": {
+          "package_name": "com.volman"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "755141002500-vgjgaq6jufld7qpo586408r36ddbggch.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.volman",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "755141002500-4siq0du1c73o4kvkoftjbusp9o50vi5n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChwaoWh61oW4lYLAp6ErrUR0XiRDxu-r0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "755141002500-4siq0du1c73o4kvkoftjbusp9o50vi5n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="61.373" height="46.543" viewBox="0 0 61.373 46.543">
+  <defs>
+    <pattern id="pattern" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 119 62">
+      <image width="119" height="62" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHcAAAA+CAMAAAAmsHQcAAAAqFBMVEX///+/CzAAJ2jowcO7ABe+ACy8ABv//v6/DjPmur69ACnDLkK+AC3EOEvLWWPbmZ3y3d79+Pm9ACK/HDG5AAEAI2bAwc4AAFwAIGUAGmMABF0AHWQADV8AFWGqEj3X2eCyuMiepLktPnQ6SXtGUYCRmLHm6O0gNnCorsESLmx+haLHy9cAAFRzepry8/aIkKuvT2RTXodkbZG9hZKpADWnACnNvMbGpa8yIHPVAAADtUlEQVRYhe2Z627kNgyFFW2T2bbpvbSujm35JtmTuDPttu//ZiWlSbABFlgMwMBAm/NHOXFgjiV+JD0REqVlkX61fNE+3HxkkcB7+Uege0K9WJltylY9Wwdk/eIp7v0Nhyiu2Z6aASSE9TA6KR3aHm2PtkY7Hlayw3rYDGtcmKdV0YPFadDZVmRtO+GnQfvUklXVU0D713csuqW4IfUSNOje94AKrkcD0Gu0Gvr6YgHjwh8/8ojOF2NJ14WEt00y4mmijS7bfgSyJppEfyVtI5h0ydVFNPQ4YRJ0imYUzUxnPIlHPPK6E02i5GKOa0APVbTSSN+2A6A9tdGjVW0VwEh9brsaLXNctUgnvQO/YWiPNmWrirVbrcE7bTfFG9dsB0pkCI3oHO3xYcocoUWODO5x5qgRo5Hmz594lDlqKvuKo7Zw1BSOilXtNBNHv/KI9nnWM50yBB8AEoSaQAV5Wem32RpaGesGhZRqTEQM1J0icFRU2c6jJWsx6WjljovVUEyhgDOWQ812eBILcRQzVqRPv/Mox8VqlDnShSMsT6cKOdJ4qOsM7sIRNQv/9888Khwlk6zWfjsiOMkuc7ZqRKvScatd8uAUXmXmSEynzzkSn3PknjmaiCPOuBhwLRw1FB5t9cyRzlcv/YgKKWu9mj3Sg+mc1Aw6wazoZ5DJzpTTQSVsEPgJFNLmm194dMlnmeKQG1CItMjUJmoEaehyP0jtXPoCPPzGo2eOlgLO1/qRfLi959BNjovtfYidxV31MQ7YaPUpdh6oXrQBZy99jkh1DsxZN/wy6+Q1OGxArn6x1J4cYrXR58FKtlHyPfDNOWZ56UejprmucEQ2z3Uv/QhPQDPOOQTOa44QHHjNEbwJR3WSyA8ChMPFrEPGScPskaN0sQ5pm9nnK5wW2xMlcBha2lTZr0O250gW+mqY32C+ws7wmEnBESCDg1it2U7irHMlXQtGrHFzA+oQHI3ttxs02TFb30XkCNx5HGtckeR/PvAox91Ckth0UqelQU7HHq1JsljdYa3KV+mRP33DorvMUQEH93gse1xG6QtHW7HYnhbm96OwtvSq57v1ROD0a5uxateh2GjzXLeyzlfeqvrovbVWmaNWuLhjjYu19dGQ1RfryXq2fa6uE1NafeDC4l1f0WEfie/3kbhhmVuun3M+stSB6+vG/e0euhc/7KO9cXrXG+vbfSTueBrq1f13r7qxV9y7fbRbXr3rvy2m9/er3/dveb6wuPr7jf9bveL5N+PV+he6q/OiIzqTHQAAAABJRU5ErkJggg=="/>
+    </pattern>
+    <filter id="_2" x="0" y="0" width="61.373" height="46.543" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#_2)">
+    <path id="_2-2" data-name="2" d="M.837,0h41.7c.462,0,.837,1.42.837,3.171v22.2c0,1.752-.375,3.171-.837,3.171H.837c-.462,0-.837-1.42-.837-3.171V3.171C0,1.42.375,0,.837,0Z" transform="translate(9 6)" fill="url(#pattern)"/>
+  </g>
+</svg>
