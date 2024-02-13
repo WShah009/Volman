@@ -15,11 +15,12 @@ import {
 import React, {useState, useEffect} from 'react';
 
 import color from '../../Assets/colors/colors';
-
+import {useNavigation} from '@react-navigation/native';
 const {width} = Dimensions.get('window');
 import CustomAllOrganizationCard from '../../Component/customAllOrganizationCard';
 import CustomPopularOrganizationCard from '../../Component/customPopularProjectsCard';
 const AllOrganizations = () => {
+  const navigation = useNavigation();
   const data1 = [
     // Your data here, you may replace these dummy values with actual data
     {
@@ -77,11 +78,14 @@ const AllOrganizations = () => {
           keyExtractor={item => item.id}
           showsHorizontalScrollIndicator={false}
           renderItem={({item}) => (
-            <CustomPopularOrganizationCard
-              name={item.name}
-              description={item.description}
-              width={width * 0.75} // Adjust width as needed
-            />
+            <TouchableOpacity
+              onPress={() => navigation.navigate('OrganizationDetailScreen')}>
+              <CustomPopularOrganizationCard
+                name={item.name}
+                description={item.description}
+                width={width * 0.75} // Adjust width as needed
+              />
+            </TouchableOpacity>
           )}
           horizontal
           contentContainerStyle={{paddingHorizontal: 8}}

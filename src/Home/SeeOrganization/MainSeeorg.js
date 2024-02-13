@@ -28,7 +28,6 @@ const MainSeeorg = ({navigation, route}) => {
             uri: global.imagePath + image,
           }}
         />
-
         <OrgnInfo />
       </View>
     </ScrollView>
@@ -41,7 +40,6 @@ const styles = StyleSheet.create({
   container: {
     backgroundColor: color.bodyColor,
     paddingHorizontal: 15,
-
     width: width,
   },
   imgStyle: {
