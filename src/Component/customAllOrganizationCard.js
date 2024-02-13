@@ -20,42 +20,44 @@ const CustomAllOrganizationCard = ({name, description, width}) => {
     setModalVisible(false);
   };
   return (
-    <View
-      style={[
-        styles.container,
-        Platform.OS === 'android' && styles.androidShadow,
-        {width: width},
-      ]}>
+    <TouchableOpacity>
       <View
-        style={{
-          height: '100%',
-          width: '40%',
-          marginTop: 2,
-          marginBottom: 2,
-          marginLeft: 4,
-        }}>
-        <Image
-          source={require('../Assets/farm.jpg')}
+        style={[
+          styles.container,
+          Platform.OS === 'android' && styles.androidShadow,
+          {width: width},
+        ]}>
+        <View
           style={{
-            height: '97%',
-            width: '100%',
-            borderBottomLeftRadius: 10,
-            borderTopLeftRadius: 10,
-          }}
-        />
-      </View>
-      <View style={{height: '100%', width: '56%', marginLeft: 3}}>
-        <TouchableOpacity onPress={openModal}>
+            height: '100%',
+            width: '40%',
+            marginTop: 2,
+            marginBottom: 2,
+            marginLeft: 4,
+          }}>
           <Image
-            source={require('../Assets/joinorg.png')}
-            style={{marginLeft: 'auto', marginTop: 3}}
+            source={require('../Assets/farm.jpg')}
+            style={{
+              height: '97%',
+              width: '100%',
+              borderBottomLeftRadius: 10,
+              borderTopLeftRadius: 10,
+            }}
           />
-        </TouchableOpacity>
-        <Text style={{color: 'black', fontWeight: 'bold'}}>{name}</Text>
-        <Text style={{color: 'grey', fontSize: 11}}>{description}</Text>
+        </View>
+        <View style={{height: '100%', width: '56%', marginLeft: 3}}>
+          <TouchableOpacity onPress={openModal}>
+            <Image
+              source={require('../Assets/joinorg.png')}
+              style={{marginLeft: 'auto', marginTop: 3}}
+            />
+          </TouchableOpacity>
+          <Text style={{color: 'black', fontWeight: 'bold'}}>{name}</Text>
+          <Text style={{color: 'grey', fontSize: 11}}>{description}</Text>
+        </View>
+        <CustomJoinedModal closeModal={closeModal} visible={modalVisible} />
       </View>
-      <CustomJoinedModal closeModal={closeModal} visible={modalVisible} />
-    </View>
+    </TouchableOpacity>
   );
 };
 

@@ -54,15 +54,15 @@ const CertificateRequest = () => {
             </View>
             <View style={{flexDirection: 'row', paddingTop: 5}}>
               <Icon name="mail" size={20} style={styles.iconStyle} />
-              <Text style={{fontSize: 17,color: '#272071',marginLeft:2,}}>Zeeshan@gmail.com</Text>
+              <Text style={{fontSize: 17, color: '#272071', marginLeft: 2}}>
+                Zeeshan@gmail.com
+              </Text>
             </View>
-            <View style={{flexDirection: 'row', paddingTop: 5 }}>
+            <View style={{flexDirection: 'row', paddingTop: 5}}>
               <Icon name="location-on" size={20} style={styles.iconStyle} />
-              <Text style={{fontSize: 17,color: '#272071'}}>Rawalpindi</Text>
+              <Text style={{fontSize: 17, color: '#272071'}}>Rawalpindi</Text>
             </View>
-
             {/* <Text style={styles.contentStyle}>{props.description}</Text> */}
-
             <View
               style={{
                 flexDirection: 'row',
@@ -134,7 +134,6 @@ const styles = StyleSheet.create({
     color: '#272071',
     fontSize: 22,
     fontWeight: 'bold',
-    
   },
   userStyle: {
     color: color.btnColor,
