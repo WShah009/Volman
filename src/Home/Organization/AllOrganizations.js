@@ -13,7 +13,6 @@ import {
   Dimensions,
 } from 'react-native';
 import React, {useState, useEffect} from 'react';
-
 import color from '../../Assets/colors/colors';
 import {useNavigation} from '@react-navigation/native';
 const {width} = Dimensions.get('window');
@@ -97,9 +96,7 @@ const AllOrganizations = () => {
     </ScrollView>
   );
 };
-
 export default AllOrganizations;
-
 const styles = StyleSheet.create({
   container: {
     paddingHorizontal: 8,
@@ -107,7 +104,6 @@ const styles = StyleSheet.create({
     flex: 1,
     // marginBottom: 340,
   },
-
   titleStyle: {
     fontSize: 18,
     fontWeight: 'bold',

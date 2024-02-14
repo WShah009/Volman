@@ -6,48 +6,9 @@ import color from '../../../Assets/colors/colors';
 import OrgInfoScreen from './orgInfoScreen';
 import OrgCempaignScreen from './orgCempaignScreen';
 const Tab = createMaterialTopTabNavigator();
+
 export default function OrgDetailTabs() {
   return (
-    // <Tab.Navigator
-    //   style={{minHeight: 1000}}
-    //   screenOptions={{
-    //     tabBarActiveTintColor: color.btnColor,
-    //     tabBarinactiveTintColor: color.default,
-    //     tabBarLabelStyle: {
-    //       fontSize: 14,
-    //       textTransform: 'capitalize',
-    //       fontWeight: 'bold',
-    //     },
-    //     tabBarStyle: {
-    //       fontWeight: 'bold',
-    //       backgroundColor: color.bodyColor,
-    //       paddingBottom: 3,
-    //       fontSize: 18,
-    //       elevation: 0,
-    //       fontWeight: 'bold',
-    //       marginTop: 15,
-    //     },
-    //     tabBarIndicatorStyle: {
-    //       height: 2.5,
-    //       backgroundColor: color.btnColor,
-    //       justifyContent: 'center',
-    //     },
-    //   }}>
-    //   <Tab.Screen
-    //     name="All Organizations"
-    //     component={OrgInfoScreen}
-    //     options={{
-    //       header: () => null,
-    //       title: 'All Organizations',
-    //       headerTitleStyle: {
-    //         color: color.btnColor,
-    //         fontSize: 30,
-    //       },
-    //       headerTintColor: color.Green,
-    //     }}
-    //   />
-    //   <Tab.Screen name="Joined Organizations" component={OrgCempaignScreen} />
-    // </Tab.Navigator>
     <Tab.Navigator
       style={{minHeight: 1000}}
       screenOptions={{

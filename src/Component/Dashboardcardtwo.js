@@ -7,13 +7,16 @@ import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityI
 const DashboardCardtwo = props => {
   return (
     <View style={styles.MainContainer}>
-      <MaterialCommunityIcons name={props.icon} size={40} color={color.btnColor} />
+      <MaterialCommunityIcons
+        name={props.icon}
+        size={40}
+        color={color.btnColor}
+      />
       <Text style={styles.count}>{props.count}</Text>
       <Text style={styles.Text}>{props.Heading}</Text>
     </View>
   );
 };
-
 export default DashboardCardtwo;
 const styles = StyleSheet.create({
   container: {
@@ -36,12 +39,10 @@ const styles = StyleSheet.create({
     alignSelf: 'center',
     height: normalize(120),
     marginTop: 15,
-   
- 
+
     alignItems: 'center',
     justifyContent: 'center',
     borderRadius: 10,
     elevation: 5,
-    
   },
 });
