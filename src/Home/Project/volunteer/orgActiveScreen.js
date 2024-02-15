@@ -1,10 +1,12 @@
 import React from 'react';
-import {View, FlatList, Dimensions} from 'react-native';
+import {View, FlatList, Dimensions, TouchableOpacity} from 'react-native';
 import OrganizationItem from '../../../Component/customActiveCard';
 const {width} = Dimensions.get('window');
 import CustomActiveCard from '../../../Component/customActiveCard';
-
+import {useNavigation} from '@react-navigation/native';
+import OrgActiveCardScreen from './orgActiveCardScreen';
 const OrgActiveScreen = () => {
+  const navigation = useNavigation();
   const data1 = [
     // Your data here, you may replace these dummy values with actual data
     {
@@ -23,7 +25,10 @@ const OrgActiveScreen = () => {
   ];
 
   const renderItem = ({item}) => (
-    <CustomActiveCard name={item.name} description={item.description} />
+    <TouchableOpacity
+      onPress={() => navigation.navigate('OrganizationActiveCardScreen')}>
+      <CustomActiveCard name={item.name} description={item.description} />
+    </TouchableOpacity>
   );
 
   return (

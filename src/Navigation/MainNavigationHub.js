@@ -66,6 +66,7 @@ import VolInprogress from '../Home/Project/volunteer/Volinprogress';
 import VolEventDetails from '../Home/Project/volunteer/Voleventdetail';
 import VolonclickEveDetails from '../Home/Project/volunteer/volonclickevedetails';
 import OrganizationDetailScreen from '../Home/Project/volunteer/organizationDetailScreen';
+import OrgActiveCardScreen from '../Home/Project/volunteer/orgActiveCardScreen';
 
 const MainNavigationHub = () => {
   return (
@@ -655,6 +656,12 @@ const MainNavigationHub = () => {
           <Stack.Screen
             name="OrganizationDetailScreen"
             component={OrganizationDetailScreen}
+            options={{headerShown: false}}
+          />
+
+          <Stack.Screen
+            name="OrganizationActiveCardScreen"
+            component={OrgActiveCardScreen}
             options={{headerShown: false}}
           />
         </Stack.Navigator>
